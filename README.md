@@ -1,5 +1,7 @@
 # Team Profile Generator
 
+<img width="1203" alt="Screen Shot 2021-08-30 at 2 42 19 PM" src="https://user-images.githubusercontent.com/23103606/131395733-c35720db-4285-42e9-8273-463f900b92d7.png">
+
 ## Description
 An application that generates a team website from user defined input on the command line:
 
