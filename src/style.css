@@ -8,10 +8,22 @@ header {
 }
 
 header h1 {
-    /* padding: 10px; */
+    padding: 15px;
+}
+
+/* main {
+    padding: 10px;
+} */
+
+.card {
+    margin-top: 10px; 
 }
 
 .card-header {
     background-color: blue;
     color: white;
+}
+
+.card-body {
+    margin: 10px;
 }

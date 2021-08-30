@@ -8,11 +8,12 @@ File generates to the './dist' folder within app directory.
 ## Installation
 Clone the project to your local machine and install dependencies.
 
-git clone https://github.com/wfknowles/team-profile-generator.git
-npm i
-To start application, start node server from within app directory.
+```git clone https://github.com/wfknowles/team-profile-generator.git```
 
-node index.js
+```npm i```
+
+To start application, start node server from within app directory.
+```node index.js```
 
 ## Usage
 A walkthrough video is available here
