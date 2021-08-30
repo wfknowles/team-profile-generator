@@ -16,7 +16,7 @@ To start application, start node server from within app directory.
 ```node index.js```
 
 ## Usage
-A walkthrough video is available here
+[A walkthrough video is available here](https://drive.google.com/file/d/1bo6anhUQrtdVEAPfGVcF6IWLLMzOtTsn/view)
 
 ## Contribution
 Made with ❤️ by Will Knowles
