@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+header h1 {
+    /* padding: 10px; */
+}
+
+.card-header {
+    background-color: blue;
+    color: white;
+}
