@@ -15,7 +15,7 @@ const generateEmployeeHTML = employeeData => {
         <div class="card">
             <div class="card-header">
                 <h2>${employeeData.getName()}</h2>
-                <h3>${employeeData.getRole()}</h3>
+                <h3><span class="fas ${generateRoleIcon(employeeData.getRole())}"></span> ${employeeData.getRole()}</h3>
             </div>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
@@ -44,6 +44,17 @@ const generateEmployeeUnique = employeeData => {
     }
 }
 
+const generateRoleIcon = role => {
+    switch (role) {
+        case 'Manager':
+            return 'fa-mug-hot';
+        case 'Engineer':
+            return 'fa-glasses';
+        case 'Intern':
+            return 'fa-user-graduate';
+    }
+}
+
 const generatePage = teamData => {
     return `
     <html lang="en">
@@ -53,6 +64,7 @@ const generatePage = teamData => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Team Website</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body class="container">
@@ -61,7 +73,7 @@ const generatePage = teamData => {
         </header>
         <main>
             <div class="row">
-                ${generateTeamHTML(teamData)}
+            ${generateTeamHTML(teamData)}
             </div>
         </main>  
     </body>
