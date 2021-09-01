@@ -17,7 +17,7 @@ test('get name from employee.getName()', () => {
 
 test('get id from employee.getID()', () => {
     let employee = new Employee('Dwight Schrute', 'dwight@dwightschrute.com');
-    expect(employee.getId()).toBe(employee.id);
+    expect(employee.getID()).toBe(employee.id);
 });
 
 test('get email from employee.getEmail()', () => {
